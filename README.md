@@ -1,7 +1,7 @@
 Advanced 3D Seismic Visualization in Python
 ==========================================
 
-Data and ipython notebook for my talk at Scipy2014.
+Data and ipython notebook for [my talk at Scipy2014](https://conference.scipy.org/scipy2014/proposals/122/) [(video)](http://www.youtube.com/watch?v=PFOd01fqcyQ&index=67&list=PLYx7XA2nY5GfuhCvStxgbynFNrxr3VFog).
 
 Abstract
 --------
@@ -12,3 +12,10 @@ We implemented stratal slicing of the 3D volume and co-rendering of multiple att
 
 The scientific python ecosystem proved to be an effective platform both for making publication-quality cross sections and for rapidly implementing state-of-the-art seismic visualization techniques. We created [publication quality cross sections](http://penecontemporaneo.us/scipy2014/Basin_uplift.png "Example cross section") (some annotations added in Inkscape) and interactive 2D visualizations in ``matplotlib``.  For 3D display of seismic volumes we used ``mayavi`` to easily create interactive scenes. ``scipy.ndimage`` provided most of the underlying image processing capability and allowed us to preform memory-efficient operations on >10GB arrays.  
 
+Requirements for Running the Notebook
+------------
+ * numpy
+ * matplotlib
+ * scipy
+ * mayavi
+ * geoprobe (The "python-geoprobe" module.  ``pip install geoprobe``)
